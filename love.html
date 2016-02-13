@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Flat UI - Free Bootstrap Framework and Theme</title>
+  <meta name="description" content="Flat UI Kit Free is a Twitter Bootstrap Framework design and Theme, this responsive framework includes a PSD and HTML version."/>
+
+  <meta name="viewport" content="width=1000, initial-scale=1.0, maximum-scale=1.0">
+
+  <!-- Loading Bootstrap -->
+  <link href="dist/css/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Loading Flat UI -->
+  <link href="dist/css/flat-ui.css" rel="stylesheet">
+  <link href="docs/assets/css/demo.css" rel="stylesheet">
+
+  <link rel="shortcut icon" href="img/favicon.ico">
+  <style>
+  .navbar-inverse{
+    background-color: #000066;
+  }
+  #love-days:hover{
+    cursor: default;
+    color: white;
+  }
+  .demo-headline:hover{
+    cursor: pointer;
+  }
+  .demo-heading-note{
+    top: 10px;
+  }
+  #question:hover{
+    cursor:pointer;
+  }
+  #question{
+   color:#16a085;
+ }
+ .sub-section{
+  display: none;
+ }
+
+.things{
+  display:none;
+}/*
+.to-do-list{
+  display: none;
+}*/
+.moment-pics, .moment-pics:hover{
+  cursor: -webkit-zoom-in;
+  max-height:400px; 
+}
+.moment-pics-zoomed, .moment-pics-zoomed:hover{
+  cursor: -webkit-zoom-out;
+}
+.dropdown-menu > li > a:hover{
+  cursor: pointer;
+}
+</style>
+<!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
+    <!--[if lt IE 9]>
+      <script src="dist/js/vendor/html5shiv.js"></script>
+      <script src="dist/js/vendor/respond.min.js"></script>
+      <![endif]-->
+
+    </head>
+    <body>
+
+      <div class="container">
+        <div class="demo-headline">
+          <h1 class="demo-logo" id='logo'>
+            <div class="logo"></div>
+            The Eternal Love
+            <small>Kai &amp; Ying</small>
+          </h1>
+          <div id = 'caption-board' style= 'display:none'>
+            <h1  id='caption-board' class="demo-logo">
+              <img src='img/pictures/bg.jpg'  id='caption-img'class="img-rounded img-responsive">
+              <h4 style='position: relative; top:-250px; display: none;' id="question">how long will I love you?</h4>
+              <h5 href="#fakelink" id='love-days' ><span id='first-captions' style="opacity: 0; position: relative; top:-300px; color:#eee" ></span></h5>
+            </h1>
+          </div>
+        </div> <!-- /demo-headline -->
+        <div class="col-xs-12 things ">
+          <nav class="navbar navbar-inverse navbar-embossed" role="navigation">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-01">
+                <span class="sr-only">Toggle navigation</span>
+              </button>
+              <a class="navbar-brand"  href="#">Day </a>
+            </div>
+            <div  class="collapse navbar-collapse" id="nav-bar-hidden">
+              <ul class="nav navbar-nav navbar-left">
+                <li><a href="#fakelink"  ><span style='font-size:21px'; id = 'today'></span></a></li>
+                <li class="dropdown">
+                  <a href="#"  class="dropdown-toggle" data-toggle="dropdown" style="margin-left: -15px">Our Moments<b class="caret"></b></a>
+                  <span class="dropdown-arrow"></span>
+                  <ul class="dropdown-menu">
+                    <li><a id ='things-link'>Moments</a></li>
+                    <li><a id='to-do-list-link' >Must To Do List</a></li>
+                    <li><a id='love-diary-link'>Love Diary</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#">Chatting Room(To be developed)</a></li>
+                  </ul>
+                </li>
+              </ul>
+              <form class="navbar-form navbar-right" action="#" role="search">
+                <div class="form-group">
+                  <div class="input-group">
+                    <input class="form-control" id="navbarInput-01" type="search" placeholder="Search">
+                    <span class="input-group-btn">
+                      <button type="submit" class="btn"><span class="fui-search"></span></button>
+                    </span>
+                  </div>
+                </div>
+              </form>
+            </div><!-- /.navbar-collapse -->
+          </nav><!-- /navbar -->
+        </div>
+        <div class="demo-row typography-row things sub-section">
+          <div class="demo-title">
+            <h3 class="demo-panel-title" id='content-header'>Our Moments</h3>
+          </div>
+          <div class="demo-content">                
+            <blockquote>
+              <div class="demo-type-example">
+                <h4><span class="demo-heading-note">2015/09/04</span>Do you know how I get to know your name for the first time?</h4>            
+                <img src="img/pictures/first-email.png" class="img-rounded img-responsive moment-pics">                      
+              </div>
+            </blockquote>
+            <blockquote>
+              <div class="demo-type-example">
+                <h5><span class="demo-heading-note">2015/10/01</span>The first day of every months is my only chance to see you in person, I asked about your recent works, while you always smiled back and listened to me talking. But this month became different for us. We saw each other a lot more because of the double charge issue...</h5>            
+                <img src="img/pictures/charger.jpeg" class="img-rounded img-responsive moment-pics">                      
+              </div>
+            </blockquote>
+            <blockquote>
+              <div class="demo-type-example">
+                <h4><span class="demo-heading-note">2015/10/08</span>I guess this is when I started to love you</h4>            
+                <img src="img/pictures/phone-conversation.jpg" class="img-rounded img-responsive moment-pics" >                     
+              </div>
+            </blockquote>
+
+            <blockquote>
+              <div class="demo-type-example">
+                <h5><span class="demo-heading-note">2015/12/23</span>We chated with each other through messages for several consecutive nights, the atomosphere between us started to evolve. Finally, I got your wechat. So I was like this.
+                </h5>                                      
+                <img src="img/pictures/dog1.jpg" class="img-rounded img-responsive moment-pics">                                          
+              </div>
+            </blockquote>
+            <div class="demo-type-example">
+
+              <h4><span class="demo-heading-note"></span>And I asked for your photo. Oh my god, what a cute girl this is. But at the same time I started to wondering what on earth has happend to her over the past 2 years?</h4>            
+              <img src="img/pictures/selfie1.jpg" class="img-rounded img-responsive moment-pics" >       
+              <p class="img-comment"><strong>Note:</strong> You even told me this picture is taken without makeup!</p>              
+            </div>
+          </blockquote>
+          <blockquote>
+            <div class="demo-type-example">
+              <h5><span class="demo-heading-note">2016/1/13</span>Sometimes you hurt yourself
+              </h5>                                      
+              <img src="img/pictures/pic2.jpg" class="img-rounded img-responsive moment-pics"      <p class="img-comment"><strong>Note:</strong> That hand belongs to me, so I have the duty to protect it</p>                                         
+            </div>
+          </blockquote>
+
+          <blockquote>
+            <div class="demo-type-example">
+              <h5><span class="demo-heading-note">2016/1/16</span>Our first photo taken together, literally
+              </h5>                                      
+              <img src="img/pictures/travel1.jpg" class="img-rounded img-responsive moment-pics">                                          
+            </div>
+          </blockquote>
+
+          <blockquote>
+            <div class="demo-type-example">
+              <h5><span class="demo-heading-note">2016/1/24</span>I could not wait to taste Minying's homemade steak at some point
+              </h5>                                      
+              <img src="img/pictures/cooking1.jpg" class="img-rounded img-responsive moment-pics">                                          
+            </div>
+          </blockquote>
+
+          <blockquote>
+            <div class="demo-type-example">
+              <h5><span class="demo-heading-note">2016/1/30</span>We spent new year together. It's our first time and it also might be the last time to watch chunwan before both of us leave this place
+              </h5>                                      
+              <img src="img/pictures/chunwan.jpg" class="img-rounded img-responsive moment-pics">                                          
+            </div>
+          </blockquote>
+
+          <blockquote>
+            <div class="demo-type-example">
+              <h5><span class="demo-heading-note">2016/3/18</span>Whenever I had any good news, you are the first person I want to share with
+              </h5>                                      
+              <img src="img/pictures/linkedin.jpg" class="img-rounded img-responsive moment-pics">                                          
+            </div>
+          </blockquote>
+          <blockquote>
+            <div class="demo-type-example">
+              <h5><span class="demo-heading-note">Near Future</span>You said you wanna raise a dog like corgi
+              </h5>                                      
+              <img src="img/pictures/corgi.jpg" class="img-rounded img-responsive moment-pics">                                          
+            </div>
+          </blockquote>
+
+          <blockquote>
+            <div class="demo-type-example">
+              <h5><span class="demo-heading-note">Near Future</span>I said I'm gonna keep a cat like mimi even though they both had great memory with us
+              </h5>                                      
+              <img src="img/pictures/mimi.jpg" class="img-rounded img-responsive moment-pics">                                          
+            </div>
+          </blockquote>
+
+          <blockquote>
+            <div class="demo-type-example">
+              <h5><span class="demo-heading-note">Near Future</span>Finally, we are gonna build our own home in the near future. I can sense that this day is approaching fast and will come true soon.
+              </h5>                                                                                
+            </div>
+          </blockquote>
+
+
+        </div><!-- /.demo-content-wide -->
+      </div><!-- /.demo-row -->
+      <div class='to-do-list sub-section'>
+        <div class="row demo-tiles">
+          <div class="col-xs-3">
+            <div class="tile">
+              <img src="img/icons/svg/compas.svg" alt="Compas" class="tile-image big-illustration">
+              <h3 class="tile-title">Page Traveling</h3>
+              <p>Lake Powell, Antelope Canyon, Horse Shoe Bend, bryce canyon</p>
+              <a class="btn btn-danger btn-large btn-block undone-task task" >Not Done</a>
+            </div>
+          </div>
+
+          <div class="col-xs-3">
+            <div class="tile">
+              <img src="img/icons/svg/compas.svg" alt="Compas" class="tile-image">
+              <h3 class="tile-title">Yellow Stone</h3>
+              <p>Need to go at summer with longer vacation</p>
+              <a class="btn btn-danger btn-large btn-block undone-task task" >Not Done</a>
+            </div>
+          </div>
+
+          <div class="col-xs-3">
+            <div class="tile">
+              <img src="img/icons/svg/compas.svg" alt="Compas" class="tile-image">
+              <h3 class="tile-title">Shanghai</h3>
+              <p>Tongji University, Xiao Longbao</p>
+              <a class="btn btn-danger btn-large btn-block undone-task task" >Not Done</a>
+            </div>
+          </div>
+
+          <div class="col-xs-3">
+            <div class="tile tile-hot">
+              <img src="img/icons/svg/compas.svg" alt="Compas" class="tile-image">
+              <h3 class="tile-title">Guangzhou</h3>
+              <p>Crabs, Seafood, Soup!!!</p>
+              <a class="btn btn-danger btn-large btn-block undone-task task" >Not Done</a>
+            </div>
+
+          </div>
+        </div> <!-- /tiles -->
+      </div>
+
+      <div class='to-do-list sub-section'>
+        <div class="row demo-tiles">
+          <div class="col-xs-3">
+            <div class="tile">
+              <img src="img/icons/svg/clipboard.svg" alt="clipboard" class="tile-image big-illustration">
+              <h3 class="tile-title">Get A from Minying</h3>
+              <p>keep A performance forever</p>
+              <a class="btn btn-danger btn-large btn-block undone-task task" >Not Done</a>
+            </div>
+          </div>
+
+          <div class="col-xs-3">
+            <div class="tile">
+              <img src="img/icons/svg/clipboard.svg" alt="clipboard" class="tile-image big-illustration">
+              <h3 class="tile-title">Raise Pets</h3>
+              <p>cat and dog</p>
+              <a class="btn btn-danger btn-large btn-block undone-task task" >Not Done</a>
+            </div>
+          </div>
+
+
+        </div> <!-- /tiles -->
+      </div>
+      <div class='love-diary sub-section'>
+        <div class="panel panel-danger">
+          <!-- Default panel contents -->
+          <div class="panel-heading">Love Diary</div>
+            <div class="panel-body">
+              <a href="404.html"> President Day Vacation </a>
+              <p>Tomorrow is our first trip in Las Vegas, I am so excited to fall asleep especially at the moment I am writing this ... </p>
+            </div>
+
+
+            <!-- List group -->
+            <ul class="list-group">
+              <li class="list-group-item">Princess Diary 1</li>
+             <li class="list-group-item">Prince Diary 2</li>
+           </ul>
+         </div>
+      </div>
+
+      <script src="dist/js/vendor/jquery.min.js"></script>
+      <script src="dist/js/vendor/video.js"></script>
+      <script src="dist/js/flat-ui.min.js"></script>
+      <script src="docs/assets/js/application.js"></script>
+
+      <script>
+      videojs.options.flash.swf = "dist/js/vendors/video-js.swf"
+      </script>
+      <script type = 'text/javascript'>
+      var is_shown = false;
+      var start_date = new Date(2016, 0, 7, 0, 0, 0, 0);
+      var now = new Date();
+      var dif = now.getTime() - start_date.getTime();
+      var passed_days = parseInt(dif/(1000*60*60*24));
+      var span = document.createElement('span');   
+      span.id = "answering";       
+      span.innerHTML = "36 days is not long enough";
+      span.style.opacity = 0;
+      span.style.position = 'relative';
+      span.style.top = "-300px";
+      span.style.color = "#EEE";
+      $(function() {        
+        $('#first-captions').html("as long as"); 
+        $('#today').html(passed_days);
+      });
+
+      function setRecursiveBlink(arr, tag, type){
+        if(arr.length === 0){
+          $(tag).animate({opacity: '1'}, 800, function(){
+            if(type){
+              $(tag).delay(1800).fadeOut(800);
+              setTimeout(function(){
+                $('#love-days').append(span);
+                var subcaptions = [
+                "But To me, "+passed_days+" days is like forever",
+                'Do you still remember?',
+                'The first email that I wrote to you', 
+                'The first time I met you in your office',
+                'The first chance to sit beside you in your car',
+                'The first voice I heard over my phone',
+                'The first dinner we had with each other',
+                'The first home visit at your house',
+                'The first cards we exchanged with each other',
+                'The first wish that we made at the new year',
+                'The first date that we went',            
+                'The first \"I made your day\" coffee',            
+                'The first hug we had at the bus stop',
+                'The first words I said to make you my girlfriend',                      
+                'The first trip we went on weekend',
+                'The first kiss we had in you car',
+                'The first sex we had in the car...',
+                'But things are not always going well',
+                'Sometimes we are acting like two people running oppositely',
+                'Fight',
+                'Silence',
+                'Jealousy',
+                'Suspecting',
+                'But our love is not that easy to be tore apart',
+                'It grows stronger and flourishes',
+                'We learned to love each other',
+                'And how to expose our truiest soul to the other',
+                'Happy Valentine\'s Day, my girl',
+                'You made me the happinest person in the world',
+                'I love you',
+                'So seriously for how long am I gonna love you?',
+                'Every day',
+                'Every Month',
+                'Every Year',
+                'That is forever',
+                'I love you'           
+                ];
+                setRecursiveBlink(subcaptions, '#answering', false);
+              }, 3000);
+
+}
+else{
+  $('#love-days').append("<span id='subcaptions-2' style='opacity: 0;position: relative; top:-300px; color: #EEE'> as long as</span>");
+  $('#subcaptions-2').animate({opacity: '1'}, 800).delay(1000, function(){
+    $('#love-days').append("<span id='subcaptions-3' style='opacity: 0;position: relative; top:-300px; color: #EEE'> you love me</span>");
+    $('#subcaptions-3').animate({opacity: '1'}, 800, function(){
+      $('.things').fadeIn(300);
+    });                
+  });
+
+}
+});          
+}
+else{
+  $(tag).animate({opacity: '1'}, 800).delay(1800).animate({opacity:'0'},800, function(){ 
+    setTimeout(function(){
+      $(tag).html(arr[0]);
+      setRecursiveBlink(arr.splice(1), tag, type);
+    }, 800);
+  });
+}
+}
+
+$('.moment-pics').click(function(){
+  if($('.moment-pics-zoomed').length !== 0) return true;
+  var scene = 0;
+ // $("<div id='cover' style='width: 100%;height: 100%;background-color: black; z-index: 9999;display: block;position: fixed;opacity: 0.4;top: 0;'></div>").appendTo('body');
+  //;
+  var original_width = this.width;
+  var original_height = this.height;
+  var width = this.width * 1.3;
+  var height = this.height * 1.3;
+  
+  //var img= document.createElement('img');
+  var pos = $(this).offset();
+  var final_top = (pos.top-this.height*0.1);
+  var final_left = (pos.left-this.width * 0.1);
+  var img = "<img src='"+ this.src +"' class='img-rounded img-responsive moment-pics-zoomed' style = 'width: " + this.width + "px;height: "+ this.height +"px; z-index: 9999;display: block;position: absolute;top: "+ pos.top +"px;left: "+  pos.left +"px'>" + "</img>";
+  $(img).appendTo('body').animate({width: width, height: height, top: final_top+"px", left: final_left+"px"}, 500);
+  $('.moment-pics-zoomed').click(function(){
+    $(this).animate({width: original_width, height: original_height, top: pos.top+"px", left: pos.left+"px"},400, function(){
+      setTimeout(function(){ $('.moment-pics-zoomed').remove();}, 0);
+    });
+  });
+});
+
+$('#logo').click(function(){
+  $('#logo').fadeOut(400);
+  setTimeout(function(){
+    $('#caption-board').fadeIn(400);
+    scene = 1;
+  }, 400);
+  
+});
+
+function changeCaptionImg(bg){
+  $('#caption-img').fadeOut(300);
+  setTimeout(function(){
+    $('#caption-img')[0].src = bg;
+    $('#caption-img').fadeIn(400);
+    $('#question').fadeIn(400);
+  }, 300);
+}
+
+$('#caption-board').click(function(){
+  switch(scene){
+    case 1:
+    changeCaptionImg('img/scene/bg1.jpg');
+
+  }
+});
+
+$('#love-diary-link').click(function(){
+  $('.sub-section').fadeOut(300);
+  $('.love-diary').fadeIn(300);
+});
+
+$('#things-link').click(function(){
+  $('.sub-section').fadeOut(300);
+  $('.things').fadeIn(300);
+});
+
+$('#to-do-list-link').click(function(){
+  $('.sub-section').fadeOut(300);
+  $('.to-do-list').fadeIn(300);
+});
+
+function doneTask(){
+  $(this).removeClass('undone-task');
+  $(this).removeClass('btn-danger');
+  $(this).addClass('btn-primary');
+  $(this).addClass('done-task');
+  $(this).text("Done");
+}
+
+function undoneTask(){
+  $(this).removeClass('btn-primary');
+  $(this).removeClass('done-task');
+  $(this).addClass('undone-task');
+  $(this).addClass('btn-danger');
+  $(this).text("Not Done");
+
+}
+
+$('.task').click(function(){
+  if($(this).hasClass('undone-task'))
+    doneTask.call(this);
+  else  
+    undoneTask.call(this);
+});
+
+$('#question').click(function(){
+
+  if(is_shown) return true;
+  event.stopPropagation();
+  $(this).css('color', '#16a085');
+  $(this).animate({top: "-340px"}, 700);
+  var music = "<embed src='music/bg.mp3' autostart='true' loop='true' width='0' height='0'></embed>";
+  $('body').append(music);
+  is_shown = true;
+          var captions = [passed_days+" days?"];//, "ever since 2016 Jan 1st?", "you see LA?"];
+          setRecursiveBlink(captions, '#first-captions', true);
+          
+
+        });
+
+
+
+</script>
+
+
+</body>
+</html>
